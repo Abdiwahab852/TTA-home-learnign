@@ -1,0 +1,7 @@
+data()
+install.packages("ggplot2")
+library("ggplot2")
+str(mpg)
+qplot(displ, hwy, data = mpg)
+qplot(displ, hwy, color = class, data = mpg)
+qplot(displ, hwy,)
